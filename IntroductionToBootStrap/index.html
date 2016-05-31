@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <style>
+    .customClass {
+        background-color: #ccc;
+        padding: 10px;
+    }
+    .col-md-9 {
+    	background-color: #ccc;
+    }
+    .col-md-3 {
+    	background-color: green;
+    }
+    .col-md-6 {
+    	background-color: orange;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="custmClass">
+        <div class="container">
+            <div class="row">
+                <div class="well">This is the first row</div>
+            </div>
+            <div class="row">
+                <div class="well">This is the second row</div>
+            </div>
+            <div class="row">
+                <div class="well">This is the Third row</div>
+            </div>
+            <div class="row">
+                <div class="well">This is the forth row</div>
+            </div>
+        </div>
+    </div>
+    <!-- coloums demo -->
+    <h1>Columns Demo</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="well">First Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthyFirst Column with a lennthy	</div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="well">Second Column</div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="well">Third Column</div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="well">Forth Column</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- offset demo -->
+    <h1>Offset Demo</h1>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-4"><div class="well">First</div></div>
+    		<div class="col-md-4 col-md-offset-4"><div class="well">Second</div></div>
+    		<div class="col-md-4"><div class="well">Third</div></div>
+    		<div class="col-md-4"><div class="well">Forth</div></div>
+    		<div class="col-md-4"><div class="well">Fifth</div></div>
+    	</div>
+    </div>
+
+	<!-- Nested columns -->
+	<h1>Nested Columns</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9"><div class="row">
+				<div class="col-md-6"><div class="well">One</div></div>
+				<div class="col-md-6"><div class="well">Two</div></div>
+			</div></div>
+			<div class="col-md-3">Two</div>
+		</div>
+	</div>
+
+
+	<!-- Push and Pulling and Ordering -->
+	<h1>Column ordering and push and pull</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-push-6"><div class="well">First</div></div>
+			<div class="col-md-6 col-md-pull-6"><div class="well">Second</div></div>
+		</div>
+	</div>
+
+<br><br>	
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
